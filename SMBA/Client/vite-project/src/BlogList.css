@@ -1,0 +1,59 @@
+/* src/components/BlogList.css */
+.blog-list-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.blog-item h3 {
+  margin-top: 0;
+}
+
+.blog-item p {
+  margin-bottom: 5px;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.actions a, .actions button {
+  margin-right: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.actions button {
+  background-color: #dc3545;
+}
+
+.actions a:hover, .actions button:hover {
+  opacity: 0.8;
+}
+
+/* src/components/BlogView.css */
+.blog-view-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-view-container h2 {
+  margin-top: 0;
+}
+
+.blog-view-container p {
+  margin-bottom: 5px;
+}
