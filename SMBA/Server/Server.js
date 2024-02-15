@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://Aakash:DevAakash%40React23@cluster0.9ft2acn.mongodb.net/blogDB', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('https:localhost:27017/blogDB', { useNewUrlParser: true, useUnifiedTopology: true });
 
 const db = mongoose.connection;
 db.once('open', () => {
